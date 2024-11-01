@@ -28,8 +28,6 @@ namespace ProcessMonitorConsoleApp
 
         private static void RunScript()
         {
-            // Code to run your script goes here
-            // For example, you could start another process
             try
             {
                 ProcessStartInfo startInfo = new ProcessStartInfo("test_script.bat");
